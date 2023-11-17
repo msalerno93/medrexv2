@@ -65,6 +65,10 @@ const PatientSchema = new mongoose.Schema({
         required: true,
       },
     },
+    phoneNumber: {
+        type: String,
+        required: true,
+    }
   },
   picturePath: {
     type: String,
